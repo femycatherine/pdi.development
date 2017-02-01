@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<repositories>
+  <repository>    <id>PentahoEnterpriseRepository</id>
+    <name>Admin</name>
+    <description>Pentaho repository &#x7c; http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;pentaho</description>
+    <is_default>false</is_default>
+    <repository_location_url>http&#x3a;&#x2f;&#x2f;localhost&#x3a;8080&#x2f;pentaho</repository_location_url>
+    <version_comment_mandatory>N</version_comment_mandatory>
+  </repository>  <repository>    <id>KettleFileRepository</id>
+    <name>Development</name>
+    <description>File repository</description>
+    <is_default>false</is_default>
+    <base_directory>C&#x3a;&#x5c;Pentaho&#x5c;project1</base_directory>
+    <read_only>N</read_only>
+    <hides_hidden_files>N</hides_hidden_files>
+  </repository>  <repository>    <id>KettleFileRepository</id>
+    <name>integration</name>
+    <description>integration</description>
+    <is_default>true</is_default>
+    <base_directory>C&#x3a;&#x5c;Pentaho&#x5c;project2&#x5c;content</base_directory>
+    <read_only>N</read_only>
+    <hides_hidden_files>N</hides_hidden_files>
+  </repository>  </repositories>
